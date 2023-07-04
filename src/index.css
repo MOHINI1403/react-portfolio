@@ -1,0 +1,397 @@
+@media screen and (max-width:1400px){
+    .section__deco:not(.header__deco){
+        display: none;
+    }
+    .header{
+        padding:30px 12px;
+    }
+    .home__img__wrapper{
+        max-width: 580px;
+        transform:translate(-6%);
+        margin-right:10px;
+        
+        
+    }
+    
+    
+    .home__profile{
+        
+        max-height:790px;
+        
+        
+
+    }
+    .home__data{
+        transform: scale(0.9);
+    }
+    .shape__1{
+        width: 190px;
+        height: 190px;
+        
+    }
+    .shape__2,.shape__3{
+        width: 126px;
+        height:126px;
+    }
+    .resume__container{
+        max-width:1100px;
+    }
+    
+
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+    .resume__container{
+        max-width:930px;
+        
+    }
+    .home{
+        padding-top: 140px;
+    }
+    .home__subtitle,.home__title,.home__job,.home__text{
+        text-align: center;
+    }
+    .home__text{
+        margin-inline: auto;
+
+    }
+    .home__img__wrapper{
+        position: relative;
+        transform: initial;
+        right:initial;
+        margin-inline: auto;
+        margin-top:14px;
+    }
+    .home__socials,.home__btns{
+        justify-content: center;
+        margin-bottom: 10px;
+    
+    }
+    .skills__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .pie-chart{
+        align-items: center;
+    }
+    .footer__copyright:nth-child(2){
+        justify-self: start;
+    }
+}
+@media screen and (max-width:990px){
+    :root{
+        --h2-font-size:24px;
+        --h3-font-size:23px;
+        --h4-font-size:21px;
+         --h5-font-size:20px;
+        --largest-font-size:19px;
+        --larger-font-size:18px;
+        --large-font-size:16px;
+        --normal-font-size:15px;
+        --small-font-size:14px;
+        --smaller-font-size:13px;
+        --tiny-font-size:12px;
+    }
+    .container{
+        max-width:740px;
+
+    }
+    .resume__container{
+        max-width:720px;
+        
+    }
+    .home__btns{
+        flex-direction: column;
+        align-items: center;
+        row-gap:60px;
+    }
+    .portfolio__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hero__link::before{
+        left:50%;
+        top:-72%;
+        transform: translateX(-50%);
+        width:2px;
+        height:40px;
+    }
+    .portfolio__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .resume__icon{
+        width:40px;
+        height: 40px;
+    }
+    .contact__form-group{
+        grid-template-columns:1fr;
+        row-gap: 0;
+    }
+    .contact__card-icon{
+        font-size:var(--large-font-size);
+        width:42px;
+        height: 42px;
+    }
+    .contact__card-icon::after{
+        width:32px;
+    }
+    .contact__card{
+        padding-left:100px;
+    }
+    .footer__container{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        row-gap: 12px;
+        text-align: center;
+    }
+    .footer__copyright:nth-child(2),.footer__copyright:last-child,.footer__copyright:first-child{
+        justify-self: center;
+        
+    }
+    .footer__copyright:first-child{
+        justify-self: flex-end;
+    }
+    .footer__socials{
+        margin-left:330px;
+    }
+
+
+}
+@media screen and (max-width:768px){
+    .header{
+        padding:24px 12px;
+    }
+    .nav__data{
+        padding:80px 0 0 124px;
+    }
+    .show-menu{
+        max-width:420px;
+
+    }
+    .header__deco{
+        left:75px;
+    }
+    .container{
+        max-width:540px;
+    }
+    .home__img__wrapper{
+        margin-top:120px;
+        max-width:400px;
+
+    }
+    .home__data{
+        transform:scale(0.6);
+    }
+    .home__data-one{
+        left:-12%;
+    }
+    .home__data-two{
+        right:-7%;
+    }
+    .home__profile{
+        height: 560px;
+        right:20px;
+       bottom:-5px;
+       
+    }
+    .shape__1{
+        width:115px;
+        height: 115px;
+        right:2%;
+    }
+    .shape__2{
+        bottom:10%;
+        left:-10%;
+
+    }
+    .shape__3{
+        bottom: 4%;
+        right:-1%;
+    }
+    .skills__container,.portfolio__container,.contact__container{
+        grid-template-columns: 1fr;
+    }
+    .portfolio__container{
+        width:480px;
+    }
+    .profile__group{
+        width:516px;
+        bottom: -3%;
+        
+    }
+    .leetcode__name{
+        font-size:15px;
+        margin-left:100px;
+    }
+    .pie-chart canvas{
+        margin-left:140px;
+    }
+    .footer__socials{
+        margin-left:230px;
+    }
+
+
+}
+@media screen and (max-width:615px){
+    :root{
+        --h2-font-size:21px;
+        --h3-font-size:19px;
+        --h4-font-size:18px;
+         --h5-font-size:17px;
+        --largest-font-size:16px;
+        --larger-font-size:15px;
+        --large-font-size:14px;
+        --normal-font-size:13px;
+        --small-font-size:12px;
+        --smaller-font-size:11px;
+        --tiny-font-size:10px;
+    }
+    .container{
+        max-width:475px;
+    }
+    .resume__container{
+        max-width:420px;
+    }
+    .show-menu{
+        max-width:350px;
+    }
+    .nav__data{
+        margin-top:170px;
+        margin-right:40px;
+        padding:60px 0px 0px 90px
+    }
+    .nav__list{
+        margin-right:60px;
+        align-items: center;
+    }
+    .nav__btns{
+
+        column-gap: 24px;
+    }
+    .header__deco .shape{
+        width:160px;
+        height: 160px;
+        top:560px;
+        margin-left:12px;
+
+    }
+    .home__img__wrapper{
+        margin-top:80px;
+        width:350px;
+    }
+    .resume__header{
+        padding:28px 24px;
+
+    }
+    .home__profile{
+        height:500px;
+    }
+    .portfolio__container{
+        width:400px;
+    }
+    .profile__container{
+        width:400px;
+
+    }
+    .resume__content{
+        padding-inline: 24px 30px;
+    }
+    .profile__group{
+        width:376px;
+    }
+    .pie-chart canvas{
+        margin-left:70px;
+    }
+    .resume__data-title{
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 4px;
+    }
+    .home__data{
+        transform:scale(0.5);
+    }
+    .home__data-one{
+        left:-16%;
+    }
+    .home__data-two{
+        right:-9%;
+    }
+    .resume__icon{
+        width:30px;
+        height: 30px;
+    }
+    .section__title{
+        font-size:20px;
+    }
+    
+}
+
+@media screen and (max-width:502px){
+    .container{
+        max-width:300px;
+    }
+    .nav__data{
+        padding:50px 0px 0px 70px
+    }
+    .header__deco{
+        left:50px;
+    }
+    .header__deco .shape{
+        height: 120px;
+        width: 120px;
+        margin-left:28px;
+        top:600px;
+    }
+    .home__img__wrapper{
+        margin-top:60px;
+        width:290px;
+    }
+    .home__profile{
+        height:440px;
+    }
+    .home__data{
+        transform:scale(0.4);
+    }
+    .home__data-one{
+        bottom:18%;
+        left:-22%;
+    }
+    .home__data-two{
+        bottom: 0%;
+        right:-16%;
+    }
+    .card,.card-two{
+        padding:24px;
+    }
+    .skills__title,.skills__description{
+        padding-inline: 16px;
+    }
+    .profile__container{
+        width:250px;
+        align-items: center;
+        margin-left:0px;
+
+    }
+    .pie-chart{
+        width:300px;
+        height: 300px;
+    }
+    .leetcode__name{
+        margin-left:50px;
+    }
+    
+}
+@media screen and (max-width:335px){
+    .container{
+        max-width:270px;
+    }
+    .profile__group{
+        max-width:fit-content
+    }
+    .footer__socials{
+        align-items: start;
+        
+    }
+}

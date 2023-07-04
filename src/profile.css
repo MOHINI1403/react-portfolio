@@ -1,0 +1,40 @@
+.leetcode__name{
+    align-items: center;
+    justify-content: center;
+    margin-left:200px;
+    color:#757de8;
+}
+.profile__section-div{
+    align-items: center;
+    justify-content: space-around;
+    padding:20px;
+    
+    margin-bottom: 20px;
+}
+.details{
+    display: flex;
+    justify-content:space-between;
+    font-size: var(--larger-font-size);
+}
+.ranking{
+    color:#0b9489;
+
+
+}
+.EasySolved{
+    color:#00e676;
+}
+.MediumSolved{
+    color:#ff9100;
+}
+.HardSolved{
+    color:#f73378;
+}
+.pie-chart{
+    display: flex;
+    align-items: center;
+    
+    height: 250px;
+    width:400px;
+}
+
