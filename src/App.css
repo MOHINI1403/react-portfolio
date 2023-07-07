@@ -193,13 +193,7 @@ img{
   z-index: -1;
 
 }
-.btn &:hover,&::before{
-  transform: scale(1);
-  filter: blur(0);
-  opacity: 1;
 
-
-}
 .btn:hover{
   color:var(--title-color);
   background-color: var(--primary-color);

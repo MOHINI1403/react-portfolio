@@ -7,6 +7,7 @@ import '../App.css';
 import './header.css'
 import {Link} from 'react-scroll'
 import shape2 from '../assets/shape-2.png'
+import Logo from '../assets/Logo.png'
 const getStorageTheme=()=>{
     let theme='light-theme';
     if(localStorage.getItem('theme')){
@@ -43,7 +44,7 @@ const Header=()=>{
 
                     <div className='nav__data'>
                         <NavLink to="/">
-                            <img src="src\assets\Logo.PNG"alt='logo'className='nav__profile__logo'/>
+                            <img src={Logo}alt='logo'className='nav__profile__logo'/>
                         </NavLink>
                         <ul className='nav__list'>
 
