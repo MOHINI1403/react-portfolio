@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './project.css'
-import './app.css'
+import './App.css'
 /*import List from './List'
 import Items from './Items'*/
 import {FaLink,FaLinkedin} from 'react-icons/fa';
